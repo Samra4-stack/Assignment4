@@ -42,17 +42,20 @@ ConvertToSeconds(23)
 def ConvertToMinutes(seconds):
     minutes = seconds / 60
     print(minutes)  
-ConvertToMinutes(2300)    
+ConvertToMinutes(2300) 
+   
 # Question no 7 (Calculate Percentage)
 def CalculatePercentage(obtained,total):
     percentage = (obtained / total) * 100
     print(percentage)
 CalculatePercentage(80,100)
+
 # Question no 8 (Calculate BMI)
 def calculateBMI(weight,height):
     bmi = weight / (height ** 2)
     print(bmi)
 calculateBMI(75, 1.75)
+
 # Question no 9 (Volume of cylinder)
 def calculateVolumeofCylinder(radius,height):
     volume = 3.14 * radius ** 2 * height
